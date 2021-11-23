@@ -3,17 +3,18 @@
 
    Objetivo general
    
+Demostrar de forma teórica y experimental la veracidad que tienen las leyes de Kirchhoff con respecto a los voltajes y las corrientes, todo esto se llevara a cabo mediante el desarrollo del presente laboratorio  que abordará el tema “Análisis de mallas”  de un circuito eléctrico mixto planteado por el tutor de la asignatura, para dicho desarrollo, se utilizara simuladores virtuales de circuitos eléctricos los cuales brindaran oportunidad de corroborar la exactitud de los datos teóricos obtenidos.
 
    Objetivos específicos
    
-   *
+   * Comprender el uso de la ley de Kirchhoff y como aplicarlo dentro de un circuito mixto utilizando simuladores virtuales que permitan su corroboración o en su defecto permita la localización de fallas.
+   * Identificar las diferencias obtenidas por medio de la ejecución de un circuito mixto, dichas respuestas serán obtenidas de manera teórica, experimental y de simuladores.
+   * Conocer el comportamiento de la corriente dentro de diferentes mallas y como esta interactúa con los componentes que integran dichas mallas.
    
 2. MARCO TEORICO
 
 ![](https://github.com/jlcastro5/Laboratorio2/blob/d03c08afc908b0b693f3a1ae63d49739c72b334f/MarcoT.jpeg)
   
-
-
 3. EXPLICACION DEL PROCEDIMIENTO
 
  En este laboratorio vamos aplicar el analisis de malla para el siguiente circuito que contiene 5 resistencias y dos fuentes de voltaje.
@@ -45,11 +46,12 @@
  ![](https://github.com/jlcastro5/Laboratorio2/blob/7884183da6ba4f479e0bba6a4d47935ae1e0c207/SIMULADOR.PNG)
    
  Figura 5. Colocacion de multimetros para medir el amperaje
+ 
 4. RESPUESTA A INTERROGANTES Y CALCULO DEL ERROR
 
  Realizamos el respectivo analisis mediante el proceso de analisis de malla en este el circuito con el que trabajos contiene 3 malas las cuales contendra tres   intensidades de corriente, las cuales son I1, I2, I3.
 
- ![](https://github.com/jlcastro5/Laboratorio2/blob/a0ab0bacecc18d6e96d12259daf002af6379f359/TABLA2.PNG)
+ ![](https://github.com/jlcastro5/Laboratorio2/blob/f56cd28a231cda38201686f2c593e00146c6dec4/TABLA2.1.PNG)
  
  Figura 6. Tabla de datos 
 
@@ -97,7 +99,7 @@
 
    Luego de haber realizado los procesos mediante matrices o soluciones de ecuacion obtenemos los valores de nuestras corrientes I1,I2,I3
 
- ![](https://github.com/jlcastro5/Laboratorio2/blob/a0ab0bacecc18d6e96d12259daf002af6379f359/INTENSIDAD.PNG)
+ ![](https://github.com/jlcastro5/Laboratorio2/blob/f56cd28a231cda38201686f2c593e00146c6dec4/CORRIENTES1.2.PNG)
 
  Figura 11. Obtencion de las I1,I2,I3
 
@@ -115,7 +117,8 @@
 
 6. CONCLUSIONES
 
-     *	
+     * Las leyes de Kirchhoff han permitido obtener resultados muy similares entre los datos obtenidos mediante la experimentación y la simulación, los cuales no se alejan relativamente nada de los datos teóricos.
+     * Para asegurar su efectividad se empleó el laboratorio virtual tinkercad, mismo que nos ha permitido identificar los valores de las resistencias, el voltaje de la fuente y los valores que ha tenido la corriente en sus respectivas mallas dentro de los circuitos eléctricos.
 
 
 7. BIBLIOGRAFÍA 
