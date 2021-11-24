@@ -108,7 +108,47 @@ Demostrar de forma teórica y experimental la veracidad que tienen las leyes de 
  ![](https://github.com/jlcastro5/Laboratorio2/blob/7884183da6ba4f479e0bba6a4d47935ae1e0c207/SIMULADOR.PNG)
 
  Figura 12. Medicion del amperaje en nuestro circuito.
+ 
+   Despues hacemos el circuito esquematico en el software de multisim para realizar las mediciones de las corrientes en este simulador.
      
+  ![](https://github.com/jlcastro5/Laboratorio2/blob/564a8acd1ef55e16ce75e8fa781d021190d45759/MULTISIM.PNG)
+  
+  Figura 13. Simulador MULTISIM
+  
+  Colocamos respectivamente los multimetros en este simulador para medir el amperaje de nuestro circuito.
+ 
+ ![](https://github.com/jlcastro5/Laboratorio2/blob/564a8acd1ef55e16ce75e8fa781d021190d45759/MULCORR.PNG)
+ 
+ Figura 14. Medicion del amperaje 
+ 
+ Para este analisis en este circuito esquematico podemos diferenciar las medidas de amperaje con el simulador tinkercad y multisim el cual vamos hacer el siguiente analisis.
+ 
+ En la figura 15, Dibujamos e intepretamos las corrientes medidas y tomadas en el multisim las cuales realizamos lo siguiente:
+ 
+ La corriente **Ia** se divide en **Ib** y **Ic**, luego Ib se divide en **Ie** y **Id**
+ 
+ ![](https://github.com/jlcastro5/Laboratorio2/blob/97e2bdb3b9671f2d8e069d313166b25a4bbb2a19/CORRRES.PNG)
+ 
+ Figura 15. Intepretacion de las corrientes en cada malla
+ 
+ En este analisis de la malla 1 las corrientes son **Ia** y **Ic** la cual luego de obtener y realizar el analisis de malla obtuvimos las intensidades I1,I2,I3 el cual dichos valores nos serviran para encontrar los valores de la corriente Ic.
+ 
+ ![](https://github.com/jlcastro5/Laboratorio2/blob/97e2bdb3b9671f2d8e069d313166b25a4bbb2a19/CORRI1.PNG)
+ 
+ Figura 16. Procedimiento de la corriente Ic
+ 
+ En la malla 2 realizamos el siguiente procedimiento mostrado en la figura 17, el cual encontraremos el valor de la corriente Ie el cual es la resta con el valor de la I3, el cual nos permitira obtener el resultado medido en el simulador.
+ 
+ ![](https://github.com/jlcastro5/Laboratorio2/blob/97e2bdb3b9671f2d8e069d313166b25a4bbb2a19/CORRI2.PNG)
+ 
+ Figura 17. Procedimiento de la corriente Ie
+ 
+ En la ultima malla analizamos que Id es igual a la corriente I3, el cual comprobamos dichos valores calculados con los medidos en el multisim.
+ 
+ ![](https://github.com/jlcastro5/Laboratorio2/blob/97e2bdb3b9671f2d8e069d313166b25a4bbb2a19/CORRI3.PNG)
+ 
+ Figura 18. Valor de Id
+ 
 
 
 5. VIDEO
