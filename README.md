@@ -21,31 +21,31 @@ Demostrar de forma teórica y experimental la veracidad que tienen las leyes de 
 
  ![](https://github.com/jlcastro5/Laboratorio2/blob/d03c08afc908b0b693f3a1ae63d49739c72b334f/MALLA.PNG)   
  
- Figura 1. Circuito para el analisis de mallas
+ *Figura 1. Circuito para el analisis de mallas*
 
  Luego representamos el circuito en nuestro simulador de tinkercad colocando respectivamente cada valor de resistencia y de cada fuente de alimentacion los cuales podemos ver en la figura 2, que nos mostrara la corriente que pasa por dicho circuito.
  
  ![](https://github.com/jlcastro5/Laboratorio2/blob/c0dc82d8731b7fff5540030139e0f3190eea423a/PROTO.PNG)
 
- Figura 2. Protoboard 
+ *Figura 2. Protoboard*
  
  Analisis y dibujamos las corrientes que pasa en este circuito, la cuales dibujamos con diferentes colores para entenderlo y analizarlo de mejor manera la cual contiene 3 corrientes.
  
  ![](https://github.com/jlcastro5/Laboratorio2/blob/efb26b9cc102905a19ffd7a864b3d2213bacd2d3/MALLA2.PNG)
 
- Figura 3. Intepretacion de las corrientes en cada malla
+ *Figura 3. Intepretacion de las corrientes en cada malla*
  
  Entonces una vez encontrado y analizado cuantas corrientes estan en nuestro circuitos, dibujamos respectivamente las corrientes que pasa por cada resistencia para poder aplicar el analisis de mallas mediante la aplicacion de la ley de Kichhoff.
  
  ![](https://github.com/jlcastro5/Laboratorio2/blob/efb26b9cc102905a19ffd7a864b3d2213bacd2d3/CORRIENTES.PNG)
  
- Figura 4. Diagrama de las corrientes de cada resistencia
+ *Figura 4. Diagrama de las corrientes de cada resistencia*
  
  Por lo tanto, realizamos un analisis en el protoboard para ver los valores de corriente que pasan por cada malla y respectivamente por cada resistencia tomando en cuanta, el proceso adecuado para encontrar y comprobar dichos datos.
 
  ![](https://github.com/jlcastro5/Laboratorio2/blob/7884183da6ba4f479e0bba6a4d47935ae1e0c207/SIMULADOR.PNG)
    
- Figura 5. Colocacion de multimetros para medir el amperaje
+ *Figura 5. Colocacion de multimetros para medir el amperaje*
  
 4. RESPUESTA A INTERROGANTES Y CALCULO DEL ERROR
 
@@ -53,13 +53,13 @@ Demostrar de forma teórica y experimental la veracidad que tienen las leyes de 
 
  ![](https://github.com/jlcastro5/Laboratorio2/blob/f56cd28a231cda38201686f2c593e00146c6dec4/TABLA2.1.PNG)
  
- Figura 6. Tabla de datos 
+ *Figura 6. Tabla de datos* 
 
  Para el analisis de malla podemos darnos cuenta las corrientes respectivamente pasan por cada resistencia las cuales tomaremos los valores de sus voltajes para aplicar  las leyes de kichhoff, las cuales nos permitira obtener los valores de las intensidades de corriente como se muestra en la siguiente figura.
 
  ![](https://github.com/jlcastro5/Laboratorio2/blob/efb26b9cc102905a19ffd7a864b3d2213bacd2d3/CORRIENTES.PNG)
 
- Figura 7. Grafico de las corrientes en cada malla.
+ *Figura 7. Grafico de las corrientes en cada malla.*
 
  En la malla 1, podemos tomar en cuenta que tenemos 3 elementos las cuales son la fuente de 18V,R1 y R2, aplicando leyes de kichhoff sumatoria de sus voltajes es igual a 0, por lo cual realizamos lo siguiente:
 
@@ -69,7 +69,7 @@ Demostrar de forma teórica y experimental la veracidad que tienen las leyes de 
 
  ![](https://github.com/jlcastro5/Laboratorio2/blob/a0ab0bacecc18d6e96d12259daf002af6379f359/MALLA.1.PNG)
 
- Figura 8. Analisis de la malla 1
+ *Figura 8. Analisis de la malla 1*
 
  Para la malla 2, tenemos otra corriente diferente a la malla 1 la cual aplicando las leyes nos quedaria:
 
@@ -79,7 +79,7 @@ Demostrar de forma teórica y experimental la veracidad que tienen las leyes de 
 
  ![](https://github.com/jlcastro5/Laboratorio2/blob/a0ab0bacecc18d6e96d12259daf002af6379f359/MALLA.2.PNG)
 
- Figura 9. Analisis de la malla 2 
+ *Figura 9. Analisis de la malla 2* 
 
  Ahora analizaremos la ultima malla la cual contiene VR5, 5V, VR4 la cual nos quedaria de la siguiente manera:
 
@@ -89,67 +89,65 @@ Demostrar de forma teórica y experimental la veracidad que tienen las leyes de 
 
  ![](https://github.com/jlcastro5/Laboratorio2/blob/a0ab0bacecc18d6e96d12259daf002af6379f359/MALLA.3.PNG)
 
- Figura 10. Analisis de la malla 3
+ *Figura 10. Analisis de la malla 3*
 
  Luego de haber obtenido de cada malla una ecuacion, podemos darnos cuenta que formamos un sistema de ecuaciones de 3 incognitas las cuales son I1,I2,I3 lo cual utiliaremos una calculadora online o un simulador matematico para resolver dichas ecuaciones.
 
  ![](https://github.com/jlcastro5/Laboratorio2/blob/a0ab0bacecc18d6e96d12259daf002af6379f359/SISTEMA.PNG)
 
- Figura 11. Sistema de ecuaciones
+ *Figura 11. Sistema de ecuaciones*
 
    Luego de haber realizado los procesos mediante matrices o soluciones de ecuacion obtenemos los valores de nuestras corrientes I1,I2,I3
 
  ![](https://github.com/jlcastro5/Laboratorio2/blob/f56cd28a231cda38201686f2c593e00146c6dec4/CORRIENTES1.2.PNG)
 
- Figura 11. Obtencion de las I1,I2,I3
+ *Figura 12. Obtencion de las I1,I2,I3*
 
    Luego, vamos al simulador de tinkercad lo cual armaremos nuestro protoboard con las resistencias correspondiente, y colocaremos nuestros multimetro para verificar y ver  los valores de las corrientes en cada malla, lo cual podemos observar que los valores calculador tiene una similitud ya que varia por decimales, y verificamos que dichos valores si corresponde al circuito medidos en el simulador.
 
  ![](https://github.com/jlcastro5/Laboratorio2/blob/7884183da6ba4f479e0bba6a4d47935ae1e0c207/SIMULADOR.PNG)
 
- Figura 12. Medicion del amperaje en nuestro circuito.
+ *Figura 13. Medicion del amperaje en nuestro circuito.
  
    Despues hacemos el circuito esquematico en el software de multisim para realizar las mediciones de las corrientes en este simulador.
      
   ![](https://github.com/jlcastro5/Laboratorio2/blob/564a8acd1ef55e16ce75e8fa781d021190d45759/MULTISIM.PNG)
   
-  Figura 13. Simulador MULTISIM
+ *Figura 14. Simulador MULTISIM*
   
   Colocamos respectivamente los multimetros en este simulador para medir el amperaje de nuestro circuito.
  
  ![](https://github.com/jlcastro5/Laboratorio2/blob/564a8acd1ef55e16ce75e8fa781d021190d45759/MULCORR.PNG)
  
- Figura 14. Medicion del amperaje 
+ *Figura 15. Medicion del amperaje* 
  
  Para este analisis en este circuito esquematico podemos diferenciar las medidas de amperaje con el simulador tinkercad y multisim el cual vamos hacer el siguiente analisis.
  
- En la figura 15, Dibujamos e intepretamos las corrientes medidas y tomadas en el multisim las cuales realizamos lo siguiente:
+ En la figura 16, Dibujamos e intepretamos las corrientes medidas y tomadas en el multisim las cuales realizamos lo siguiente:
  
- La corriente **Ia** se divide en **Ib** y **Ic**, luego Ib se divide en **Ie** y **Id**
+ La corriente **Ia** se divide en **Ib** y **Ic**, luego **Ib** se divide en **Ie** y **Id**
  
  ![](https://github.com/jlcastro5/Laboratorio2/blob/97e2bdb3b9671f2d8e069d313166b25a4bbb2a19/CORRRES.PNG)
  
- Figura 15. Intepretacion de las corrientes en cada malla
+ *Figura 16. Intepretacion de las corrientes en cada malla*
  
  En este analisis de la malla 1 las corrientes son **Ia** y **Ic** la cual luego de obtener y realizar el analisis de malla obtuvimos las intensidades I1,I2,I3 el cual dichos valores nos serviran para encontrar los valores de la corriente Ic.
  
  ![](https://github.com/jlcastro5/Laboratorio2/blob/97e2bdb3b9671f2d8e069d313166b25a4bbb2a19/CORRI1.PNG)
  
- Figura 16. Procedimiento de la corriente Ic
+ Figura 17. Procedimiento de la corriente Ic
  
- En la malla 2 realizamos el siguiente procedimiento mostrado en la figura 17, el cual encontraremos el valor de la corriente Ie el cual es la resta con el valor de la I3, el cual nos permitira obtener el resultado medido en el simulador.
+ En la malla 2 realizamos el siguiente procedimiento mostrado en la figura 18, el cual encontraremos el valor de la corriente **Ie** el cual es la resta con el valor de la **I3**, el cual nos permitira obtener el resultado medido en el simulador.
  
  ![](https://github.com/jlcastro5/Laboratorio2/blob/97e2bdb3b9671f2d8e069d313166b25a4bbb2a19/CORRI2.PNG)
  
- Figura 17. Procedimiento de la corriente Ie
+ *Figura 18. Procedimiento de la corriente Ie*
  
- En la ultima malla analizamos que Id es igual a la corriente I3, el cual comprobamos dichos valores calculados con los medidos en el multisim.
+ En la ultima malla analizamos que Id es igual a la corriente **I3**,tomando en cuenta los valores de la figura 12, el cual comprobamos dichos valores calculados con los medidos en el multisim.
  
  ![](https://github.com/jlcastro5/Laboratorio2/blob/97e2bdb3b9671f2d8e069d313166b25a4bbb2a19/CORRI3.PNG)
  
- Figura 18. Valor de Id
- 
-
+ *Figura 19. Valor de Id*
 
 5. VIDEO
 
